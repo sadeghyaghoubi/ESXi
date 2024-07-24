@@ -1,3 +1,4 @@
+میتونید از دستورات زیر استفاده کنید ، درصورتی که با خطا مواجه شدید احتمالا فایل SSACLI وجود ندارد که فایل مربوطه نیز اضافه شد و میتوانید دانلود کنید
 /opt/smartstorageadmin/ssacli/bin/ssacli ctrl all show config
  
   /opt/smartstorageadmin/ssacli/bin/ssacli ctrl slot=0 pd 2I:1:8 modify erase
