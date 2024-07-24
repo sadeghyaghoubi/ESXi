@@ -29,7 +29,11 @@ ssacli ctrl slot=0 ld all show detail
 
 =======================
 1- lsblk
+
 2- echo 1>/sys/class/block/sdd/device/rescan
+
 3- dnf install -y cloud-utils-growpart
+
 4- growpart -v /dev/sdb 1
+
 5- xfs_growfs /dev/sdb1 
